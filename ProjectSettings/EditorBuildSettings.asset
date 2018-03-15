@@ -12,7 +12,10 @@ EditorBuildSettings:
     path: Assets/Scenes/2.unity
     guid: 482f9bfdf34e44aaf9621c02d22f4ed2
   - enabled: 1
-    path: Assets/Scenes/Merlin.unity
+    path: Assets/Scenes/choix.unity
+    guid: 6d6622a0340fdaa4aa429377b2e734a9
+  - enabled: 1
+    path: Assets/Scenes/bird.unity
     guid: c98918673f9b9e8419b7f09d1ba47099
   - enabled: 1
     path: Assets/Scenes/3.unity
