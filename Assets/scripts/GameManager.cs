@@ -9,14 +9,12 @@ public class GameManager : MonoBehaviour {
 
 	public static GameManager Instance;
 
-	public GameObject startPage;
 	public GameObject gameOverPage;
 	public GameObject countdownPage;
 	public Text scoreText;
 
 	enum PageState {
 		None,
-		Start,
 		Countdown,
 		GameOver
 	}
@@ -72,22 +70,14 @@ public class GameManager : MonoBehaviour {
 	void SetPageState(PageState state) {
 		switch (state) {
 			case PageState.None:
-				startPage.SetActive(false);
-				gameOverPage.SetActive(false);
-				countdownPage.SetActive(false);
-				break;
-			case PageState.Start:
-				startPage.SetActive(true);
 				gameOverPage.SetActive(false);
 				countdownPage.SetActive(false);
 				break;
 			case PageState.Countdown:
-				startPage.SetActive(false);
 				gameOverPage.SetActive(false);
 				countdownPage.SetActive(true);
 				break;
 			case PageState.GameOver:
-				startPage.SetActive(false);
 				gameOverPage.SetActive(true);
 				countdownPage.SetActive(false);
 				break;
@@ -95,7 +85,7 @@ public class GameManager : MonoBehaviour {
 	}
 	
 	public void ConfirmGameOver() {
-		SetPageState(PageState.Start);
+		SetPageState(PageState.Countdown);
 		scoreText.text = "0";
 		OnGameOverConfirmed();
 	}
