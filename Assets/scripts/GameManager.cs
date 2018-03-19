@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
 
@@ -56,6 +57,9 @@ public class GameManager : MonoBehaviour {
 	void OnPlayerScored() {
 		score++;
 		scoreText.text = score.ToString();
+		if (score == 10) {
+			SceneManager.LoadScene("3");
+		}
 	}
 
 	void OnPlayerDied() {

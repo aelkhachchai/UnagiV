@@ -171,7 +171,7 @@ SpriteRenderer:
   m_Size: {x: 6.4, y: 2.56}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
 --- !u!4 &52379490
 Transform:
@@ -407,7 +407,7 @@ MonoBehaviour:
     sentence: "Moi j'ai pens\xE9 \xE0 la magie parce que c'est p\xE9remptoire. C'est
       \xE0 votre tour de trouver une technique, fait vous lancer sans \xE7a vous y
       arriverez jamais."
-  - name: Karadoc
+  - name: Perceval
     sentence: Ah je sais ! On prend une catapulte, on vise pile sur l'aiguille et
       on arrive direct !
   next: choix

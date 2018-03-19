@@ -313,65 +313,27 @@ MonoBehaviour:
   nameText: {fileID: 1314623001}
   dialogueText: {fileID: 184274066}
   dialogue:
-  - name: Karadoc
-    sentence: Ah sir ! Vous tombez bien ...
   - name: Arthur
-    sentence: ' Pas maintenant, j''ai pas le temps.'
+    sentence: Qu'est-ce que vous avez foutu bande de cons !?
   - name: Perceval
-    sentence: "Mais sir \"vous tombez bien\" c'est une image, \xE7a prend pas de temps."
+    sentence: "Sir c'est vous ? Vous \xEAtes pas au campement Nord ?"
   - name: Arthur
-    sentence: "Euw, depuis quand vous savez qu'une image ... Non mais ok, c'est pas
-      pour ce que je viens voir. Dieu sait que je peux pas vous confier de mission
-      mais j'ai que vous sous le coude alors ouvrez grand vos esgourges on va parler
-      strat\xE9gie militaire."
+    sentence: "Bah oui c'est moi, tr\xE8s gros blaireau. Je rentre de la bataille
+      contre les Saxons, je vous y ai pas vu. J'ai pas non plus vu ma strat\xE9gie,
+      vous avez encore plant\xE9 le coup du message."
   - name: Karadoc
-    sentence: Mais sir on est pas sous votre coude.
+    sentence: "Cette fois c'est pas nous sir, on pr\xE9pare encore notre technique
+      de vol pour atterir au campement Est."
+  - name: Arthur
+    sentence: "Vous \xEAtes pas parti ? Vous avez d\xE9sob\xE9i \xE0 un ordre direct
+      ?"
   - name: Perceval
-    sentence: "En plus y a pas la place sous le coude, va encore falloir se mettre
-      \xE0 genoux."
-  - name: Karadoc
-    sentence: "Ou alors faut lever les bras mais \xE7a va vous crever pour rien."
+    sentence: Mais sir, si on part sans notre technique de vol on va se paumer.
   - name: Arthur
-    sentence: "Bouclez l\xE0 ! Sous le coude c'est une image, \xE7a veut dire que
-      je peux vous demander des trucs et comme tous les autres chevaliers sont d\xE9j\xE0
-      partis il me reste que vous deux."
-  - name: Perceval
-    sentence: Vous nous faites confiance ?
-  - name: Arthur
-    sentence: "Bah c'est \xE0 dire que j'ai pas tellement le choix ..."
-  - name: Karadoc
-    sentence: C'est classe !
-  - name: Perceval
-    sentence: "Cette fois on vous d\xE9cevra pas sir."
-  - name: Arthur
-    sentence: Ouai ... Vous devez vous rendre au campement Est pour ..
-  - name: Perceval
-    sentence: Pfff
-  - name: Arthur
-    sentence: "Qu'est-ce qui vous prend de souffler comme \xE7a, j'ai encore rien
-      dis."
-  - name: Perceval
-    sentence: "bah ces conneries de Nord et de Sud c'est un vrais pi\xE8ge \xE0 con,
-      \xE0 chaque fois que je les utilise je me paume et je met 3 jours \xE0 retrouver
-      le chemin."
-  - name: Karadoc
-    sentence: Non mais c'est bon, je sais les utiliser moi, faut s'orienter avec une
-      girouette.
-  - name: Arthur
-    sentence: Une boussole ?
-  - name: Karadoc
-    sentence: "Ouai une boussole, apr\xE8s \xE7a va tout seul."
-  - name: Arthur
-    sentence: Vous allez au campement Est et vous leurs dites de pas bouger au premier
-      signal. On va laisser avancer pour les prendre en tenaille.
-  - name: Perceval
-    sentence: Ouai c'est pas faux
-  - name: Karadoc
-    sentence: Et vous sir, vous venez avec nous ?
-  - name: Arthur
-    sentence: Non moi je vais au campement Nord, vous allez pas les encercler tout
-      seul depuis le campement Est.
-  next: 
+    sentence: "Cassez-vous, allez vous paumer au for\xEAt et priez que je vous retrouve
+      jamais sans \xE7a je vous envoie \xE0 Rome, vous pourrez montrer vos techniques
+      au jeu du cirque."
+  next: 1
 --- !u!114 &344107755
 MonoBehaviour:
   m_ObjectHideFlags: 0
