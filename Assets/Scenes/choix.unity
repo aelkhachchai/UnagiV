@@ -573,7 +573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52e4a37a88576fb4c983f83ac0ea3664, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  next: bird
+  next: merlin
 --- !u!1 &1444669296
 GameObject:
   m_ObjectHideFlags: 0

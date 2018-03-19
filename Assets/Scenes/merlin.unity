@@ -765,7 +765,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 6768ce2633a6776478a923666453733c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 20bc109739e06475cbc52081892471ab, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -948,7 +948,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 558c46fe3b37a1047bd27274187cf67c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 57aed145348634bae84e742611eaa333, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.903
   m_Pitch: 1
@@ -1461,7 +1461,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 400, y: 600}
+  m_SizeDelta: {x: 500, y: 700}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1301191967
 MonoBehaviour:
@@ -1810,10 +1810,10 @@ MonoBehaviour:
   shiftSpeed: -0.25
   spawnRate: 60
   ySpawnRange:
-    minY: 0
-    maxY: 0
+    minY: -0.5
+    maxY: 0.5
   defaultSpawnPos: {x: 14, y: 0, z: 0}
-  spawnImmediate: 0
+  spawnImmediate: 1
   immediateSpawnPos: {x: 0, y: 0, z: 0}
   targetAspectRatio: {x: 10, y: 16}
 --- !u!1 &1599965775
@@ -1905,7 +1905,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 53435a60feccf8046981c18da8f48577, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 2415b86fa79ec44a8b88e961113ac02c, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.519
   m_Pitch: 1
@@ -2218,8 +2218,8 @@ MonoBehaviour:
   shiftSpeed: -2
   spawnRate: 2
   ySpawnRange:
-    minY: 0
-    maxY: 0
+    minY: -2.4
+    maxY: 2.4
   defaultSpawnPos: {x: 4.5, y: 0, z: 0}
   spawnImmediate: 0
   immediateSpawnPos: {x: 4.5, y: 0, z: 0}
