@@ -13,6 +13,7 @@ public class CameraFollow : MonoBehaviour {
         Vector3 newPosition = transform.position;
         newPosition.x = projectile.position.x;
         newPosition.x = Mathf.Clamp(newPosition.x, farLeft.position.x, farRight.position.x);
+        newPosition.y = projectile.position.y;
         transform.position = newPosition;
     }
 }
