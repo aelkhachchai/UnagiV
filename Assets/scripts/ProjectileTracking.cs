@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ProjectileTracking : MonoBehaviour {
 
+    public AudioSource intro;
     public float maxStretch = 3.0f;
     public LineRenderer catapultLineFront;
     public LineRenderer catapultLineBack;
@@ -21,6 +22,7 @@ public class ProjectileTracking : MonoBehaviour {
 
     void Awake()
     {
+        intro.Play();
         spring = GetComponent<SpringJoint2D>();
         rigidbody2d = GetComponent<Rigidbody2D>();
         circle = GetComponent<CircleCollider2D>();

@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour {
 
+	public AudioSource intro;
 	public Text nameText;
 	public Text dialogueText;
 	public Dialogue[] dialogue;
@@ -15,6 +16,7 @@ public class DialogueManager : MonoBehaviour {
 	private bool first;
 
 	void Start () {
+		intro.Play();
 		first = true;
 		dialogues = new Queue<Dialogue>();
 		foreach (Dialogue dial in dialogue) {

@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour {
 	public delegate void GameDelegate();
 	public static event GameDelegate OnGameStarted;
 	public static event GameDelegate OnGameOverConfirmed;
+	public AudioSource intro;
 
 	public static GameManager Instance;
 
@@ -82,6 +83,7 @@ public class GameManager : MonoBehaviour {
 				countdownPage.SetActive(true);
 				break;
 			case PageState.GameOver:
+				intro.Play();
 				gameOverPage.SetActive(true);
 				countdownPage.SetActive(false);
 				break;
